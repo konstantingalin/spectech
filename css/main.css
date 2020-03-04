@@ -108,6 +108,210 @@ header {
       border: 1px solid #E9C143;
       border-radius: 28px; }
 
+section {
+  padding: 96px 0px 100px; }
+  section h2 {
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #1C1C1E; }
+
+.catalog__items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .catalog__items div {
+    width: 33%;
+    padding: 32px 32px;
+    margin-right: 24px;
+    border: 1px solid #E6E6E6;
+    border-radius: 80px 0px; }
+    .catalog__items div:last-child {
+      margin-right: 0; }
+
+.catalog h3 {
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  color: #1C1C1E;
+  padding: 8px 16px;
+  background: #E9C143;
+  border-radius: 28px; }
+
+.catalog p {
+  margin: 243px 0 16px 0;
+  clear: both;
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 130%; }
+  .catalog p span {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%; }
+    .catalog p span:last-child {
+      font-weight: bold; }
+
+.catalog .button {
+  background: none;
+  color: #fff;
+  border: 1px solid #E9C143;
+  border-radius: 22px 0px;
+  padding: 15px 39px;
+  font-size: 10px; }
+  .catalog .button:hover {
+    background-color: #E9C143;
+    border-color: #E9C143; }
+
+.catalog__carcrane {
+  background: top center/cover no-repeat url(../img/carcrane.jpg); }
+
+.catalog__carplatform {
+  background: top center/cover no-repeat url(../img/carplatform.jpg); }
+
+.catalog__manipulator {
+  background: top center/cover no-repeat url(../img/manipulator.jpg); }
+
+.services {
+  padding-top: 0; }
+  .services__items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+    .services__items div {
+      background-color: #E9C143;
+      margin-right: 24px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      .services__items div:nth-child(2), .services__items div:last-child {
+        margin-right: 0; }
+    .services__items a {
+      text-decoration: none;
+      color: #1C1C1E;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 150%;
+      display: block;
+      padding: 24px 0 149px 24px; }
+  .services__destruction {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 64%;
+    margin-bottom: 24px;
+    background: 0 0/cover no-repeat url(../img/destruction.png); }
+  .services__constructions {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 30%;
+    margin-bottom: 24px;
+    background: 0 0/cover no-repeat url(../img/constructions.png); }
+  .services__manipulator {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 31%;
+    background: 0 0/cover no-repeat url(../img/manipulator.png); }
+  .services__carcrane {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 31%;
+    vertical-align: bottom;
+    background: 0 0/cover no-repeat url(../img/carcrane.png); }
+    .services__carcrane a {
+      padding: 182px 0 24px 24px; }
+  .services__carplatform {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 31%;
+    background: 0 0/cover no-repeat url(../img/carplatform.png); }
+
+.advantages {
+  padding-top: 0; }
+  .advantages__items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .advantages__items div {
+      background-color: #FAFAFA;
+      border-radius: 0px 80px;
+      width: 30%;
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
+      margin-right: 48px;
+      text-align: center; }
+      .advantages__items div:nth-child(3), .advantages__items div:last-child {
+        margin-right: 0; }
+    .advantages__items h3 {
+      padding: 36px 0 16px;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 130%;
+      color: #1C1C1E; }
+    .advantages__items p {
+      font-size: 16px;
+      line-height: 150%;
+      color: #8C8C8C;
+      padding-bottom: 80px; }
+    .advantages__items img {
+      margin-top: -44px; }
+    .advantages__items .item1, .advantages__items .item2, .advantages__items .item3 {
+      margin-top: 20px;
+      margin-bottom: 80px; }
+
+.company_info {
+  padding: 80px 0;
+  background-color: #E9C143; }
+  .company_info__content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .company_info p {
+    color: #1C1C1E;
+    font-size: 20px;
+    line-height: 150%;
+    padding-top: 10px;
+    margin-left: 48px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
