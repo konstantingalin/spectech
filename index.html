@@ -22,185 +22,349 @@
    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header>
-		<div class="container">
-			<div class="header__top">
-				<div class="header__logo">
-					<a href="">
-						<img src="img/logo.svg" alt="">
-					</a>
-				</div>
-				<nav class="header__nav">
-					<ul>
-						<li><a href="">Аренда и услуги</a></li>
-						<li><a href="">Отзывы</a></li>
-						<li><a href="">Парк спецтехники</a></li>
-						<li><a href="">Контакты</a></li>
-					</ul>
-				</nav>
-				<div class="header__contacts">
-					<div class="header__phone">
-						<p>Ежедневно с 10 до 18</p>
-						<a href="tel:89581118780">8 958 111 87 80</a>
+	<div id="my-page">
+		<div id="my-header">
+			<header class="header">
+				<div class="container">
+					<div class="header__top">
+						<div class="header__logo">
+							<a href="">
+								<img src="img/logo.svg" alt="">
+							</a>
+						</div>
+						<nav class="header__nav">
+							<ul>
+								<li><a href="">Каталог спецтехники</a></li>
+								<li><a href="">Наши услуги</a></li>
+								<li><a href="">Отзывы</a></li>
+								<li><a href="">Парк спецтехники</a></li>
+								<li><a href="">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="header__contacts">
+							<div class="header__phone">
+								<p>Ежедневно с 10 до 18</p>
+								<a href="tel:89581118780">8 958 111 87 80</a>
+							</div>
+							<div class="header__calback">
+								<a href="">Обратный звонок</a>
+							</div>
+						</div>
+						<div class="header__hamburger">
+							<a href="#my-menu" class="hamburger hamburger--emphatic">
+								<span class="hamburger-box">
+									<span class="hamburger-inner">
+										<img src="img/menu.svg" alt="">
+									</span>
+								</span>
+							</a>
+							<nav id="my-menu">
+								<ul>
+									<li><a href="">Каталог спецтехники</a></li>
+									<li><a href="">Наши услуги</a></li>
+									<li><a href="">Отзывы</a></li>
+									<li><a href="">Парк спецтехники</a></li>
+									<li><a href="">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
 					</div>
-					<div class="header__calback">
-						<a href="">Обратный звонок</a>
+					<div class="header__content">
+						<ul class="work_location">
+							<li>Санкт-Петербург и ЛО</li>
+							<li>Республика Карелия</li>
+						</ul>
+						<h1>
+							Аренда и услуги
+							строительной
+							спецтехники
+						</h1>
+						<a href="" class="button">Оставить заказ</a>
 					</div>
 				</div>
-			</div>
-			<div class="header__content">
-				<ul class="work_location">
-					<li>Санкт-Петербург и ЛО</li>
-					<li>Республика Карелия</li>
-				</ul>
-				<h1>
-					Аренда и услуги
-					строительной
-					спецтехники
-				</h1>
-				<a href="" class="button">Оставить заказ</a>
-			</div>
+			</header>			
 		</div>
-	</header>
-	<section class="catalog">
-		<div class="container">
-			<h2>Каталог спецтехники</h2>
-			<div class="catalog__items">
-				<div class="catalog__carcrane">
-					<h3>Автокран</h3>
-					<p><span>от</span> 1 500 <span>₽ / ч</span></p>
-					<a href="" class="button">Заказать</a>
+		<div id="my-content">
+			<section class="catalog">
+				<div class="container">
+					<h2>Каталог спецтехники</h2>
+					<div class="catalog__items">
+						<div class="catalog__carcrane">
+							<h3>Автокран</h3>
+							<p><span>от</span> 1 500 <span>₽ / ч</span></p>
+							<a href="" class="button">Заказать</a>
+						</div>
+						<div class="catalog__carplatform">
+							<h3>Автовышка</h3>
+							<p><span>от</span> 1 100 <span>₽ / ч</span></p>
+							<a href="" class="button">Заказать</a>
+						</div>
+						<div class="catalog__manipulator">
+							<h3>Манипулятор</h3>
+							<p><span>от</span> 1 400 <span>₽ / ч</span></p>
+							<a href="" class="button">Заказать</a>
+						</div>
+					</div>
 				</div>
-				<div class="catalog__carplatform">
-					<h3>Автовышка</h3>
-					<p><span>от</span> 1 100 <span>₽ / ч</span></p>
-					<a href="" class="button">Заказать</a>
+			</section>
+			<section class="services">
+				<div class="container">
+					<h2>Наши услуги</h2>
+					<div class="services__items">
+						<div class="services__destruction">
+							<a href="">
+								<h3>
+									Демонтаж, слом, <br/> 
+									снос зданий, сооружений
+								</h3>
+							</a>
+						</div>
+						<div class="services__constructions">
+							<a href="">
+								<h3>
+									Демонтаж <br/>
+									металло <br/>
+									конструкций
+								</h3>
+							</a>
+						</div>
+						<div class="services__manipulator">
+							<a href="">
+								<h3>
+									Аренда <br/>
+									манипулятора
+								</h3>
+							</a>
+						</div>
+						<div class="services__carcrane">
+							<a href="">
+								<h3>
+									Аренда <br/>
+									автокранов
+								</h3>
+							</a>
+						</div>
+						<div class="services__carplatform">
+							<a href="">
+								<h3>
+									Аренда <br/>
+									автовышек
+								</h3>
+							</a>
+						</div>
+					</div>
 				</div>
-				<div class="catalog__manipulator">
-					<h3>Манипулятор</h3>
-					<p><span>от</span> 1 400 <span>₽ / ч</span></p>
-					<a href="" class="button">Заказать</a>
+			</section>
+			<section class="advantages">
+				<div class="container">
+					<h2>Наши преимущества</h2>
+					<div class="advantages__items">
+						<div class="item1">
+							<img src="img/one.svg" alt="Преимущество первое">
+							<h3>Решение задачи</h3>
+							<p>
+								Быстро и оперативно решаем <br/>
+								любую поставленную задачу
+							</p>
+						</div>
+						<div class="item2">
+							<img src="img/two.svg" alt="Преимущество второе">
+							<h3>Подача техники</h3>
+							<p>
+								Быстрая подача техники <br/>
+								в любую точку города <br/>
+								и области
+							</p>
+						</div>
+						<div class="item3">
+							<img src="img/three.svg" alt="Преимущество третье">
+							<h3>Механизаторы</h3>
+							<p>
+								У нас работают опытные <br/>
+								механизаторы со стажем <br/>
+								от 10 лет работы
+							</p>
+						</div>
+						<div class="item4">
+							<img src="img/four.svg" alt="Преимущество четвертое">
+							<h3>Техника</h3>
+							<p>
+								Мы имеем большой парк <br/>
+								техники. Широкий спектр <br/>
+								выполняемых работ
+							</p>
+						</div>
+						<div class="item5">
+							<img src="img/five.svg" alt="Преимущество пятое">
+							<h3>Скидки</h3>
+							<p>
+								Мы предоставляем <br/>
+								индивидуальные скидки <br/> 
+								на долгий срок сотрудничества
+							</p>
+						</div>
+						<div class="item6">
+							<img src="img/six.svg" alt="Преимущество шестое">
+							<h3>Оплата</h3>
+							<p>
+								Мы принимаем любую <br/>
+								форму оплаты
+							</p>
+						</div>
+					</div>
 				</div>
-			</div>
+			</section>
+			<section class="company_info">
+				<div class="container">
+					<div class="company_info__content">
+						<img src="img/logo2.svg" alt="Логотип">
+						<p>
+							Наша компания всегда нацелена на качественный результат <br>для достижения долговременного сотрудничества. Звоните, <br/> и вы обязательно станете нашим постоянным клиентом
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="callback">
+				<div class="container">
+					<div class="callback__content">
+						<form action="" class="callback__form">
+							<h2>
+								Оставьте заявку <br/>
+								и мы рассчитаем <br/>
+								для вас стоимость
+							</h2>
+							<label for="name">Имя</label>
+							<input type="text" id="name" required>
+							<label for="email">Электронная почта</label>
+							<input type="email" id="email" required>
+							<label for="phone">Телефон</label>
+							<input type="tel" id="phone">
+							<div class="personal">
+								<input cheked type="checkbox" id="checkbox" checked>
+								<label for="checkbox">
+									<span>Я согласен на <a href="#">обработку персональных данных</a></span>
+								</label>
+							</div>
+							<a href="" class="button">Отправить заявку</a>
+						</form>
+						<div class="callback__image">
+							<img src="img/kov6.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="feedback">
+				<h2>
+					Отзывы наших клиентов
+				</h2>
+				<div class="container">
+					<div class="owl-carousel feedback__content">
+						<div class="feedback__comment">
+							<img src="img/avatar_andrey.png" alt="Фотография  Андрея" class="avatar">
+							<h3>Андрей</h3>
+							<p>
+								Ребята вообще молодцы! Быстро оформили 
+								и доставили технику без всяких вопросов. 
+								Теперь обращаюсь к ним
+							</p>
+							<img src="img/rating.svg" alt="Рейтинг" class="rating">
+						</div>
+						<div class="feedback__comment">
+							<img src="img/avatar_vyacheslav.png" alt="Фотография Вечеслава" class="avatar">
+							<h3>Вячеслав</h3>
+							<p>
+								Отличная компания. Заказывали несколько единиц спецтехники. Работы длились 1,5 месяца. Никаких претензий к технике. Так же нам организовали заправку нашей техники, 
+								за что отдельное спасибо. Очень удобно
+							</p>
+							<img src="img/rating.svg" alt="Рейтинг" class="rating">
+						</div>
+						<div class="feedback__comment">
+							<img src="img/avatar_vyacheslav.png" alt="Фотография Вечеслава" class="avatar">
+							<h3>Вячеслав</h3>
+							<p>
+								Отличная компания. Заказывали несколько единиц спецтехники. Работы длились 1,5 месяца. Никаких претензий к технике. Так же нам организовали заправку нашей техники, 
+								за что отдельное спасибо. Очень удобно
+							</p>
+							<img src="img/rating.svg" alt="Рейтинг" class="rating">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="equipment">
+				<div class="container">
+					<h2>Наша техника</h2>
+					<div class="equipment__content">
+						<div class="equipment__item1"></div>
+						<div class="equipment__item2"></div>
+						<div class="equipment__item3"></div>
+						<div class="equipment__item4"></div>
+						<div class="equipment__item5"></div>
+						<div class="equipment__item6"></div>
+						<div class="equipment__item7"></div>
+						<div class="equipment__item8"></div>
+					</div>
+				</div>
+			</section>
+			<section class="question">
+				<div class="container">
+					<h2>Остались вопросы?</h2>
+					<form action="">
+						<div class="question__form">
+							<div class="name">
+								<label for="name">Имя</label>
+								<input type="text" id="name" required>
+							</div>
+							<div class="email">
+								<label for="email">Электронная почта</label>
+								<input type="email" id="email" required>
+							</div>
+							<div class="phone">
+								<label for="phone">Телефон</label>
+								<input type="tel" id="phone">	
+							</div>
+							<div class="butt">
+								<a href="" class="button">Отправить заявку</a>	
+							</div>
+						</div>
+						<div class="personal">
+							<input cheked type="checkbox" id="checkbox2" checked>
+							<label for="checkbox2">
+								<span>Я согласен на обработку данных</span>
+							</label>
+						</div>	
+					</form>
+				</div>
+			</section>
 		</div>
-	</section>
-	<section class="services">
-		<div class="container">
-			<h2>Наши услуги</h2>
-			<div class="services__items">
-				<div class="services__destruction">
-					<a href="">
-						<h3>
-							Демонтаж, слом, <br/> 
-							снос зданий, сооружений
-						</h3>
-					</a>
+		<div id="my-footer">
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__content">
+						<div class="footer__logo">
+							<img src="img/logo3.svg" alt="Логотип">
+						</div>
+						<div class="footer__nav">
+							<ul>
+								<li><a href="">Каталог спецтехники</a></li>
+								<li><a href="">Наши услуги</a></li>
+								<li><a href="">Отзывы</a></li>
+								<li><a href="">Парк спецтехники</a></li>
+								<li><a href="">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="footer__info">
+							© 2020 СпецТех +
+						</div>
+					</div>
 				</div>
-				<div class="services__constructions">
-					<a href="">
-						<h3>
-							Демонтаж <br/>
-							металло <br/>
-							конструкций
-						</h3>
-					</a>
-				</div>
-				<div class="services__manipulator">
-					<a href="">
-						<h3>
-							Аренда <br/>
-							манипулятора
-						</h3>
-					</a>
-				</div>
-				<div class="services__carcrane">
-					<a href="">
-						<h3>
-							Аренда <br/>
-							автокранов
-						</h3>
-					</a>
-				</div>
-				<div class="services__carplatform">
-					<a href="">
-						<h3>
-							Аренда <br/>
-							автовышек
-						</h3>
-					</a>
-				</div>
-			</div>
+			</footer>
 		</div>
-	</section>
-	<section class="advantages">
-		<div class="container">
-			<h2>Наши преимущества</h2>
-			<div class="advantages__items">
-				<div class="item1">
-					<img src="img/one.svg" alt="Преимущество первое">
-					<h3>Решение задачи</h3>
-					<p>
-						Быстро и оперативно решаем <br/>
-						любую поставленную задачу
-					</p>
-				</div>
-				<div class="item2">
-					<img src="img/two.svg" alt="Преимущество второе">
-					<h3>Подача техники</h3>
-					<p>
-						Быстрая подача техники <br/>
-						в любую точку города <br/>
-						и области
-					</p>
-				</div>
-				<div class="item3">
-					<img src="img/three.svg" alt="Преимущество третье">
-					<h3>Механизаторы</h3>
-					<p>
-						У нас работают опытные <br/>
-						механизаторы со стажем <br/>
-						от 10 лет работы
-					</p>
-				</div>
-				<div class="item4">
-					<img src="img/four.svg" alt="Преимущество четвертое">
-					<h3>Техника</h3>
-					<p>
-						Мы имеем большой парк <br/>
-						техники. Широкий спектр <br/>
-						выполняемых работ
-					</p>
-				</div>
-				<div class="item5">
-					<img src="img/five.svg" alt="Преимущество пятое">
-					<h3>Скидки</h3>
-					<p>
-						Мы предоставляем <br/>
-						индивидуальные скидки <br/> 
-						на долгий срок сотрудничества
-					</p>
-				</div>
-				<div class="item6">
-					<img src="img/six.svg" alt="Преимущество шестое">
-					<h3>Оплата</h3>
-					<p>
-						Мы принимаем любую <br/>
-						форму оплаты
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="company_info">
-		<div class="container">
-			<div class="company_info__content">
-				<img src="img/logo2.svg" alt="Логотип">
-				<p>
-					Наша компания всегда нацелена на качественный результат <br>для достижения долговременного сотрудничества. Звоните, <br/> и вы обязательно станете нашим постоянным клиентом
-				</p>
-			</div>
-		</div>
-	</section>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://masonry.desandro.com/masonry.pkgd.js"></script>
 	<script src="js/libs.min.js"></script>
+	<script src="js/common.js"></script>
+	
 </body>
 </html>
