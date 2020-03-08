@@ -8,7 +8,7 @@ $(function() {
 		}
 	});
 	
-	$('.owl-carousel').owlCarousel({
+	$('.feedback__content').owlCarousel({
     loop:true,
     margin: 48,
     responsiveClass:true,
@@ -27,6 +27,22 @@ $(function() {
     }
 });
 	
+	$('.equipment__carousel').owlCarousel({
+    loop:true,
+    margin: 48,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            dots:true,
+            loop:true
+        },
+		 631: {
+			 dots: false
+		 }
+    }
+});
 	
+	$('.popup').magnificPopup();
 		
 });

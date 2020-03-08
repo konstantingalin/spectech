@@ -26,6 +26,31 @@
 		<div id="my-header">
 			<header class="header">
 				<div class="container">
+					<div class="hidden">
+						<form id="header__popup">
+							<div class="form_content">
+								<h2>
+									Оставьте заявку <br/>
+									и мы рассчитаем <br/>
+									для вас стоимость
+								</h2>
+								<label for="name">Имя</label>
+								<input type="text" id="name" required autocomplete="off">
+								<label for="email">Электронная почта</label>
+								<input type="email" id="email" required autocomplete="off">
+								<label for="phone">Телефон</label>
+								<input type="tel" id="phone" autocomplete="off">
+								<div class="personal">
+									<input cheked type="checkbox" id="checkbox" checked>
+									<label for="checkbox">
+										<span>Я согласен на <a>обработку персональных данных</a></span>
+									</label>
+								</div>
+								<button class="button">Отправить заявку</button>
+							</div>
+							<div class="form__image"></div>
+						</form>
+					</div>
 					<div class="header__top">
 						<div class="header__logo">
 							<a href="">
@@ -34,11 +59,11 @@
 						</div>
 						<nav class="header__nav">
 							<ul>
-								<li><a href="">Каталог спецтехники</a></li>
+								<li><a href="#catalog">Каталог спецтехники</a></li>
 								<li><a href="">Наши услуги</a></li>
 								<li><a href="">Отзывы</a></li>
 								<li><a href="">Парк спецтехники</a></li>
-								<li><a href="">Контакты</a></li>
+								<li><a href="#header__popup" class="popup">Контакты</a></li>
 							</ul>
 						</nav>
 						<div class="header__contacts">
@@ -47,7 +72,7 @@
 								<a href="tel:89581118780">8 958 111 87 80</a>
 							</div>
 							<div class="header__calback">
-								<a href="">Обратный звонок</a>
+								<a href="#header__popup" class="popup">Обратный звонок</a>
 							</div>
 						</div>
 						<div class="header__hamburger">
@@ -79,30 +104,30 @@
 							строительной
 							спецтехники
 						</h1>
-						<a href="" class="button">Оставить заказ</a>
+						<a href="#header__popup" class="button popup">Оставить заказ</a>
 					</div>
 				</div>
 			</header>			
 		</div>
 		<div id="my-content">
-			<section class="catalog">
+			<section class="catalog" id="catalog">
 				<div class="container">
 					<h2>Каталог спецтехники</h2>
 					<div class="catalog__items">
 						<div class="catalog__carcrane">
 							<h3>Автокран</h3>
 							<p><span>от</span> 1 500 <span>₽ / ч</span></p>
-							<a href="" class="button">Заказать</a>
+							<a href="#header__popup" class="button popup">Заказать</a>
 						</div>
 						<div class="catalog__carplatform">
 							<h3>Автовышка</h3>
 							<p><span>от</span> 1 100 <span>₽ / ч</span></p>
-							<a href="" class="button">Заказать</a>
+							<a href="#header__popup" class="button popup">Заказать</a>
 						</div>
 						<div class="catalog__manipulator">
 							<h3>Манипулятор</h3>
 							<p><span>от</span> 1 400 <span>₽ / ч</span></p>
-							<a href="" class="button">Заказать</a>
+							<a href="#header__popup" class="button popup">Заказать</a>
 						</div>
 					</div>
 				</div>
@@ -234,11 +259,11 @@
 								для вас стоимость
 							</h2>
 							<label for="name">Имя</label>
-							<input type="text" id="name" required>
+							<input type="text" id="name" required autocomplete="off">
 							<label for="email">Электронная почта</label>
-							<input type="email" id="email" required>
+							<input type="email" id="email" required autocomplete="off">
 							<label for="phone">Телефон</label>
-							<input type="tel" id="phone">
+							<input type="tel" id="phone" autocomplete="off">
 							<div class="personal">
 								<input cheked type="checkbox" id="checkbox" checked>
 								<label for="checkbox">
@@ -303,6 +328,16 @@
 						<div class="equipment__item7"></div>
 						<div class="equipment__item8"></div>
 					</div>
+					<div class="equipment__carousel owl-carousel">
+						<div class="item"><img src="img/photo_item1r.png" alt=""></div>
+						<div class="item"><img src="img/photo_item2r.png" alt=""></div>
+						<div class="item"><img src="img/photo_item3r.png" alt=""></div>
+						<div class="item"><img src="img/photo_item4r.png" alt=""></div>
+						<div class="item"><img src="img/photo_item5r.png" alt=""></div>
+						<div class="item"><img src="img/photo_item6r.png" alt=""></div>
+						<div class="item"><img src="img/photo_item7r.png" alt=""></div>
+						<div class="item"><img src="img/photo_item8r.png" alt=""></div>
+					</div>
 				</div>
 			</section>
 			<section class="question">
@@ -312,15 +347,15 @@
 						<div class="question__form">
 							<div class="name">
 								<label for="name">Имя</label>
-								<input type="text" id="name" required>
+								<input type="text" id="name" id="name2" required autocomplete="off">
 							</div>
 							<div class="email">
 								<label for="email">Электронная почта</label>
-								<input type="email" id="email" required>
+								<input type="email" id="email" required autocomplete="off">
 							</div>
 							<div class="phone">
 								<label for="phone">Телефон</label>
-								<input type="tel" id="phone">	
+								<input type="tel" id="phone" autocomplete="off">	
 							</div>
 							<div class="butt">
 								<a href="" class="button">Отправить заявку</a>	
@@ -360,7 +395,6 @@
 			</footer>
 		</div>
 	</div>
-	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="http://masonry.desandro.com/masonry.pkgd.js"></script>
 	<script src="js/libs.min.js"></script>
