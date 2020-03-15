@@ -4,7 +4,7 @@ $(function() {
 	{
 		extensions: [ 'theme-black', 'fx-menu-slide', 'pagedim-black', "position-right"],
 		navbar: {
-			title: '<img src="../img/logo_burger.svg" alt="Логотип">'
+			title: '<img src="img/logo_burger.svg" alt="Логотип">'
 		},
 		offCanvas: {
 			"position": "right"
